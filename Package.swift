@@ -24,8 +24,9 @@ let package = Package(
                 .target(name: "MicrosoftCognitiveServicesSpeech")
             ],
             path: "MicrosoftCognitiveServicesSpeechTarget"),
-        .binaryTarget(name: "MicrosoftCognitiveServicesSpeech",
-                     url: "https://csspeechstorage.blob.core.windows.net/drop/1.23.0/MicrosoftCognitiveServicesSpeech-XCFramework-1.23.0.zip",
-                     checksum: "a37096c05ab402caf8b800a3cef10fef77aa2c9126295fda4663460d62f3a14a"),
+        .binaryTarget(
+            name: "MicrosoftCognitiveServicesSpeech",
+            url: "https://csspeechstorage.blob.core.windows.net/drop/1.23.0/MicrosoftCognitiveServicesSpeech-XCFramework-1.23.0.zip",
+            checksum: "a37096c05ab402caf8b800a3cef10fef77aa2c9126295fda4663460d62f3a14a"),
     ]
 )
